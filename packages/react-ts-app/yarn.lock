@@ -1173,7 +1173,7 @@
   resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
   integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
 
-"@types/jest@24.0.18":
+"@types/jest@24.0.18", "@types/jest@^24.0.18":
   version "24.0.18"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.18.tgz#9c7858d450c59e2164a8a9df0905fc5091944498"
   integrity sha512-jcDDXdjTcrQzdN06+TSVsPPqxvsZA/5QkYfIZlq1JMw7FdP5AZylbOc+6B/cuDurctRe+MziUMtQ3xQdrbjqyQ==
@@ -8019,6 +8019,20 @@ react-scripts@3.1.2:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.0.7"
+
+react-ts-components@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-ts-components/-/react-ts-components-0.0.1.tgz#04cf8fff38589259fae15144c54db43bcc80dd53"
+  integrity sha512-HWvYVZuBkVtlhyPrbluGzBX9I6hi4sGBbLu1tNRu44WFG72+ZNiOOVaIJdYZR43MHa4GTthtI/yBw8oEhBkwJw==
+  dependencies:
+    "@types/jest" "^24.0.18"
+    "@types/node" "12.7.5"
+    "@types/react" "16.9.2"
+    "@types/react-dom" "16.9.0"
+    react "^16.9.0"
+    react-dom "^16.9.0"
+    react-scripts "3.1.2"
+    typescript "3.6.3"
 
 react@^16.9.0:
   version "16.9.0"

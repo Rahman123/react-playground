@@ -6,6 +6,7 @@ import Button from 'react-ts-components/dist/Button';
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Button label="" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
