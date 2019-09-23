@@ -15,9 +15,8 @@
   "scripts": {
     "start": "yarn storybook",
     "prebuild": "rimraf dist",
-    "build": "npx babel src --out-dir dist --extensions '.js,.tsx' && yarn build:copy-files && yarn build:index",
+    "build": "npx babel src --out-dir dist --extensions '.js,.tsx' && yarn build:copy-files",
     "build:copy-files": "node scripts/copy-files.js",
-    "build:index": "npx babel index.js --out-dir dist",
     "test": "react-scripts test",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

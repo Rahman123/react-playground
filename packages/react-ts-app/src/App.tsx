@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from 'react-ts-components/dist/Button';
+import { Button, Badge } from 'react-ts-components';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Button label="" />
+      <Badge label="OK" />
+      <Button label="OK" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
