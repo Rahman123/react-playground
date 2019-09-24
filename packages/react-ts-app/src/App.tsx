@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Badge } from 'react-ts-components';
+import Button from '@material-ui/core/Button';
+import { Badge } from 'react-ts-components';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Badge label="OK" />
-      <Button label="OK" />
+      <Button color="primary">OK</Button>
+      <Badge label="string" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
